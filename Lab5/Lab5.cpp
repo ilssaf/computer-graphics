@@ -14,7 +14,7 @@ using namespace DirectX;
 
 #define MAX_STRING_LENGTH 100
 WCHAR windowTitle[MAX_STRING_LENGTH] = L"3D Graphics App by Khamidullin Ilsaf";
-WCHAR windowClassName[MAX_STRING_LENGTH] = "GraphicsAppClass";
+WCHAR windowClassName[MAX_STRING_LENGTH] = L"GraphicsAppClass";
 
 ID3D11Device* graphicsDevice = nullptr;
 ID3D11DeviceContext* deviceContext = nullptr;
