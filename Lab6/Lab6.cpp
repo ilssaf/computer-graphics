@@ -585,7 +585,7 @@ HRESULT InitializeGraphicsResources()
 
     return S_OK;
 }
-void ReleaseResources()
+void CleanupDirect3D()
 {
     if (deviceContext)
         deviceContext->ClearState();
